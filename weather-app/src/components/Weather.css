@@ -1,0 +1,66 @@
+.weather-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.current-weather {
+    display: flex;
+    border: 2px solid black;
+}
+
+.left-column {
+    flex: 1;
+    border-right: 1px solid black;
+    background-image: url('../assets/background.jpg'); /* Replace 'your-image-file.jpg' with the actual filename */
+    background-size: cover;
+    background-position: center;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.daily-forecast {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.weekly-forecast {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lavender;
+}
+
+.weekly-forecast-item {
+    flex: 1;
+}
+
+.left-column h3,
+.left-column p,
+.left-column img {
+    margin-bottom: 30px;
+}
+
+.left-column h3 {
+    font-size: 40px;
+    font-family: "Andale Mono";
+}
+
+.left-column p {
+    font-size: 20px;
+    font-family: "Al Bayan";
+    font-weight: bold;
+}
+
+.left-column h4 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.right-column p{
+    font-size: large;
+    font-family: Monospace;
+}
